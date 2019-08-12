@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+		<title>Moto-Frete</title>
+		<link rel="icon" href="favicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="css/reset.css">
+		<link rel="stylesheet" type="text/css" href="css/index.css">
+
+	</head>
+	<body>
+
+		<header>
+			<div class="container">
+				<h2 class="titulo">Moto-Frete</h2>
+			</div>
+		</header>
+		<main>
+
+
+                <section class="container">
+                        <h2>Calcule seu frete!</h2>
+                        <form id="conteudo-form">
+                            
+                            <div class="grupo">
+                                <label for="CEP">CEP de origem:</label>
+                                <input id="CEP" name="CEP" type="text" placeholder="Digite o CEP da rua" class="campo">
+                            </div>
+                            
+                            
+                            <div class="grupo">
+                                <label for="CEP-destino">CEP de destino:</label>
+                                <input id="CEPdestino" name="CEPdestino" type="text" placeholder="Digite o CEP da rua" class="campo">
+                            </div>
+                            <h3>Quantos irá cobrar por KM?</h3>
+
+                                <div class="grupo">
+                                    <label for="dinheiro"></label>
+                                    <input id="dinheiro" name="dinheiro" type="text" placeholder="Ex: 0,50 centavos" class="campo">
+                                </div>
+                          
+                            <button id="adicionar-endereco" class="botao">Adicionar</button>
+                        </form>
+                    </section>
+    
+
+
+			<section class="container">
+
+				
+					
+				</table>
+            </section>
+
+            <div id="esconder">
+            <section class="container2">
+                
+                    <h2>Resultado</h2>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>De</th>
+                                <th>Para</th>
+                                <th>Custa</th>
+                            </tr>
+                        </thead>
+                        <tbody id="tabela-endereco">
+            
+                        </tbody>
+                    </table>
+                
+                </section>
+            </div>
+        </main>
+
+		<footer>
+                &copy; Guilherme Siqueira 2019
+            </footer>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+            <!-- Include all compiled plugins (below), or include individual files as needed -->
+
+            <script src="js/apimatrix.js" ></script>
+            <script async defer src="https://maps.googleapis.com/maps/api/js?key=SUA KEY"
+            type="text/javascript"></script>
+            <script src ="js/adicionaHtml.js"></script>
+
+        </body>
+            
+        
+ </body>
